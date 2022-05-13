@@ -64,6 +64,11 @@ class ViewController: UIViewController {
             print("Animation dones from VC!", completed ? "completed" : "not completed")
         }
     }
+    
+    @IBAction private func changeBtnPressed(){
+        self.label.text = self.getRandomText()
+        self.aButton.setImage(self.getRandomImage(), for: .normal)
+    }
 
 }
 

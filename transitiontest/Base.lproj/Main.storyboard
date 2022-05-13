@@ -43,12 +43,26 @@
                                     <action selector="animateBtnPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="2xe-Rh-heQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvh-9u-mbD">
+                                <rect key="frame" x="147" y="652" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2Wf-JF-JDp"/>
+                                    <constraint firstAttribute="width" constant="120" id="ehk-c8-JSd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Just Change"/>
+                                <connections>
+                                    <action selector="changeBtnPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="IP3-3j-acr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bDp-pd-KMf" firstAttribute="top" secondItem="6Op-V3-bJQ" secondAttribute="bottom" constant="100" id="E8P-FH-cCK"/>
                             <constraint firstItem="bDp-pd-KMf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EX6-88-grL"/>
+                            <constraint firstItem="Tvh-9u-mbD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I4N-eZ-yNc"/>
+                            <constraint firstItem="Fuy-rG-rNq" firstAttribute="top" secondItem="Tvh-9u-mbD" secondAttribute="bottom" constant="10" id="Jam-z2-az5"/>
                             <constraint firstItem="Fuy-rG-rNq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mzf-hZ-bA5"/>
                             <constraint firstItem="6Op-V3-bJQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Uh4-Za-oAQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Fuy-rG-rNq" secondAttribute="bottom" constant="100" id="W3J-zf-05e"/>
