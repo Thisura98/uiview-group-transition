@@ -50,7 +50,14 @@ class ViewController: UIViewController {
         }, completion: nil)
         */
         
-        UIView.groupTransition(with: [label, aButton], duration: 0.3, delay: 0.0, type: .fade, subtype: nil, timing: .easeInOut) {
+        UIView.groupTransition(
+            with: [label, aButton],
+            duration: 0.3,
+            delay: 0.0,
+            type: .fade,
+            subtype: nil,
+            timing: .easeInOut
+        ) {
             self.label.text = self.getRandomText()
             self.aButton.setImage(self.getRandomImage(), for: .normal)
         } completion: { completed in
